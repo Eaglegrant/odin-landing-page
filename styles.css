@@ -1,0 +1,128 @@
+*{
+    font-family: 'Roboto';
+    background-color: #1F2937;
+}
+body {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+  padding: 0;
+  }
+.hero{
+    margin: 0;
+    margin-bottom: 60px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.header,
+.footer {
+  display: flex;
+}
+strong{
+    font-size: 24px;
+    color: #F9FAF8;
+}
+ul {
+    display: flex;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    gap: 16px
+  }
+a{
+    text-decoration: none;
+}
+.section1{
+    margin: 0;
+    margin-bottom: 50px;
+    padding-left: 200px;
+    padding-right: 200px;
+    display: flex;
+    justify-content: space-between;
+}
+.leftCaption{
+    display: flex;
+    flex-direction: column;
+    flex-wrap: wrap;
+    width: 500px;
+    gap: -50px;
+}
+.main{
+    font-size: 48px;
+}
+.subtext{
+    font-size: 18px;
+    color: #E5E7EB;
+}
+.sign {
+    margin-top: 3em;
+}
+.sign{
+    font-size: 18px;
+    color: #3882F6;
+    width: 10em;
+    display: flex;
+    margin: 0 auto;
+    border: .3em solid #E5E7EB;
+    border-radius: 1em;
+    background-image: linear-gradient(rgba(250, 0, 0, 0.5), rgba(107, 39, 0, 0.5));
+    padding: 20px;
+    width: 60px;
+}
+.image{
+    background-color: grey;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.caption{
+    background-color: grey;
+}
+.rick{
+    width: 200px;
+}
+.infoTitle{
+    color: black;
+    font-size: 24px;
+font-weight: bold;
+}
+
+.info,.infoTitle,.imageGallery,.imageContainer,.captionProfile{
+    background-color: white;
+}
+.info{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 200px;
+    padding-right: 200px;
+}
+.imageContainer{
+    width: 100px;
+}
+.imageGallery{
+display: flex;
+flex-wrap: wrap;
+flex-direction: row;
+align-items: center;
+justify-content: space-between;
+background-color: white;
+padding: 16px;
+gap: 50px;
+flex-basis: 1;
+flex-shrink: 1;
+flex-grow: 1;
+}
+.profile{
+border: .25em solid #3882F6;
+    border-radius: .25em;
+    min-width: 100px;
+    min-height: 100px;
+    max-width: 150px;
+    max-height: 150px;
+}
+.captionProfile{
+    word-wrap: normal;
+}
